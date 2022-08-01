@@ -420,7 +420,7 @@ struct ExternError ursa_cl_credential_values_builder_new(const void **credential
 /**
  * Creates and returns credential values json.
  *
- * Note: Proof instance deallocation must be performed by calling ursa_cl_proof_free.
+ * Note: Credential values instance deallocation must be performed by calling ursa_cl_credential_values_free.
  *
  * # Arguments
  * * `credential_values_json` - Reference that contains credential values json.
